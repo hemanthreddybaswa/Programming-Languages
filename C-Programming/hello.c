@@ -1,5 +1,6 @@
 //This program prints "hello world" statement
 #include"stdio.h"
-void main(){
+int main(){
     printf("Hello World!");
+    return 0;
 }
