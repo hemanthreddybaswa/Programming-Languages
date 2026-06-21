@@ -11,6 +11,7 @@
 int a=10;   			//global var declaration section optional 
 int sum();
 
+
 int main(){				//main func section
 	printf("Hello ");
 	printf("%d %d %d ",a,max,sum());
