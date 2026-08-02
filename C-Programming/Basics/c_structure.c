@@ -1,32 +1,33 @@
-//this is hello world program
-/* this is my first program
- * my name is hemanth
-*/						//documentation section optional 
+//This program helps to understand basic structure of c program         //Single line comments
+/*This is c programming.
+ * C programming invented by Dennis Richie
+ * At Bell labs in 1972													//Multi line comments
+ */
 
-#include"stdio.h"		//link section
-#include<conio.h>
+#include<stdio.h>
+#include<conio.h>				//Link Section
 
-#define max 100			//definition section optional
+#define score 20 
+#define square(x) x*x			//definition section
 
-int a=10;   			//global var declaration section optional 
-int sum();
+int x=15;						//Global declaration section
 
-
-int main(){				//main func section
-	printf("Hello ");
-	printf("%d %d %d ",a,max,sum());
+void greet();
+int main(){						//Main section
+	int a=10;
+	printf("C basic structure:\n");
+	greet();
+	
+	printf("%d %d ",x,score);
+	printf("%d ",square(a));
+	
+	
 	getch();
+	return 0;
 }
- 
-int sum(){ 		 	//sub program section
-
-	int b=20;
-	int c=a+b;
-	return c;
+void greet(){
+	printf("Hello user!\n");
 }
-
-
-
 
 
 
