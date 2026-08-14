@@ -12,12 +12,12 @@ int main(){
 	a=4,5;
 	printf("a : %d \n" ,a);  //right operand has no effect
 	
-	int c=(7,8,9);
+	int c=(7,8,9);		//left operand has no effect
 	printf("c : %d \n",c);
 	
 	
 	
-	printf("int size : %u ",sizeof(int));
+	printf("int size : %llu \n",sizeof(int));
 	
 	getch();
 	

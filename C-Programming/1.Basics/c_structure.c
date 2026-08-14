@@ -7,8 +7,8 @@
 #include<stdio.h>
 #include<conio.h>				//Link Section
 
-#define score 20 
-#define square(x) x*x			//definition section
+#define SCORE 20 
+#define SQUARE(x) x*x			//definition section
 
 int x=15;						//Global declaration section
 
@@ -18,14 +18,14 @@ int main(){						//Main section
 	printf("C basic structure:\n");
 	greet();
 	
-	printf("%d %d ",x,score);
-	printf("%d ",square(a));
+	printf("%d %d ",x,SCORE);
+	printf("%d ",SQUARE(a));
 	
 	
 	getch();
 	return 0;
 }
-void greet(){
+void greet(){					//Sub program section
 	printf("Hello user!\n");
 }
 
